@@ -13,7 +13,7 @@ data = {}
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="retretTRD$56d$%^D45d6456d354534"
+  password=""
 )
 
 mycursor = mydb.cursor()
