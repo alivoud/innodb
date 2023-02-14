@@ -11,7 +11,7 @@ data = {}
 
 
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="gap.im",
   user="root",
   password=""
 )
@@ -60,4 +60,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run(host="localhost", port=8001, debug=True)
+    app.run(host="0.0.0.0", port=8001, debug=True)
